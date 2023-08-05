@@ -1,0 +1,154 @@
+*{
+    box-sizing: border-box;
+}
+
+/*estilo do corpo*/
+
+body {
+    font-family:Arial, Helvetica, sans-serif;
+    margin: 0;
+
+}
+
+/*cabeçalho da página*/
+
+.header {
+
+    padding: 60px;
+
+    text-align: center;
+
+    background:  #ff2515;
+
+    color: white;
+
+}
+
+.navbar {
+
+    display: flex;
+
+    background-color:  #ff2515;
+    justify-content: center;
+    
+
+}
+
+.row {
+
+    display: flex;
+
+    flex-wrap: wrap;
+
+}
+
+.img1 {
+
+    background-color:  white;
+ 
+    width: 100%;
+ 
+    padding: 20px;
+ 
+ }
+
+ .side {
+
+    flex: 30%;
+
+    background-color: #f1f1f1;
+
+    padding: 20px;
+
+}
+
+
+
+
+/* Coluna principal do site */
+
+.main {
+
+    flex: 70%;
+
+    background-color: white;
+
+    padding: 20px;
+
+}
+
+
+/* rodapé da página */
+
+.footer {
+
+        padding: 20px;
+        text-align: center;
+        background: #ddd;
+        margin: 500px 10px 10px 200px;
+        width: 100%;
+        height: 80px;
+        margin: auto;
+    
+    }
+
+
+
+
+.navbar a {
+
+    color: white;
+
+    padding: 14px 20px;
+
+    text-decoration: none;
+
+    text-align: center;
+
+}
+
+
+/* Altera a cor dos itens do menu cor ao passar o mouse */
+
+.navbar a:hover {
+
+    background-color:white;
+    color: black;
+    transition: 1.5s;
+
+}
+
+@media screen and (max-width: 800px) {
+
+
+
+    
+
+    .img1 {
+
+        background-color:white;
+
+    }
+
+    .row,
+
+    .nav {
+
+        flex-direction: column;
+
+    }
+
+}
+
+
+
+
+@media (min-width: 300px) {
+}
+
+img {
+    justify-content: left;
+    width: 100%;
+    height: 100%;
+}
+

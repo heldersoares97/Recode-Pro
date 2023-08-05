@@ -1,0 +1,139 @@
+*{
+    box-sizing: border-box;
+    max-height: 100%;
+
+}
+
+/*estilo do corpo*/
+
+body {
+    font-family:Arial, Helvetica, sans-serif;
+    margin:0;
+    width: 100%;
+
+}
+
+/*cabeçalho da página*/
+
+.header {
+
+    padding: 60px;
+
+    text-align: center;
+
+    background: #ff2515;
+
+    color: white;
+
+}
+
+.navbar {
+
+    display: flex;
+    background-color:  #ff2515;
+    width: 100%;
+    justify-content: center;
+    
+
+}
+
+.row {
+
+    display: flex;
+
+    flex-wrap: wrap;
+
+}
+
+ .side {
+
+    flex: 30%;
+
+    background-color: #f1f1f1;
+
+    padding: 20px;
+
+}
+
+
+
+
+/* Coluna principal */
+
+.main {
+
+    flex: 70%;
+
+    background-color: white;
+
+    padding: 20px;
+    margin: 100px 20px 100px 20px;
+
+}
+
+
+
+
+.footer {
+
+        padding: 20px;
+        text-align: center;
+        background: #ddd;
+        margin: 200px 30px 10px 200px;
+        width: 100%;
+        height: 80px;
+        margin: auto;
+    
+    }
+
+
+
+
+.navbar a {
+
+    color: white;
+
+    padding: 14px 20px;
+
+    text-decoration: none;
+
+    text-align: center;
+
+}
+
+
+/* Altera a cor dos itens do menu cor ao passar o mouse */
+
+.navbar a:hover {
+
+    background-color:white;
+    color: black;
+    transition: 1.5s;
+
+}
+
+@media screen and (max-width: 800px) {
+
+
+
+    
+
+    .img1 {
+
+        background-color: aqua;
+
+    }
+
+    .row,
+
+    .nav {
+
+        flex-direction: column;
+
+    }
+
+}
+
+img {
+    border-radius: 40px;
+}
